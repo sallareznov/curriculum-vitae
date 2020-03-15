@@ -1,0 +1,106 @@
+\documentclass[12pt, a4paper]{awesome-cv}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+\fontdir[fonts/]
+
+\colorlet{awesome}{awesome-emerald}
+\setbool{acvSectionColorHighlight}{true}
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\name{Salla}{Diagne}
+\position{Software Engineer}
+\address{\faHome ~ 13 Rue Abélard, Résidence A302, 59000 Lille}
+\mobile{07 82 33 53 54}
+\email{salladiagne14@gmail.com}
+\github{sallareznov}
+\linkedin{salladiagne}
+\medium{sallareznov}
+
+\begin{document}
+
+    \makecvheader
+
+    \cvsection{Experience ~ \faBriefcase ~}
+
+        \begin{cventries}
+
+            \cventry
+                {Scala Software Engineer}
+                {Colisweb ~~ \includegraphics[scale=0.085]{images/logo_colisweb}}
+                {Lille}
+                {Since September 2016}
+                {
+                    \begin{cvitems}
+                        \item {Co-designed and co-initiated the transition of Colisweb's main application from a Ruby monolith to autonomous and high-performing Scala microservices}
+                        \item {Designed, developed, deployed and maintained various Scala services using Functional Programming, Domain Driven Design, Hexagonal Architecture, CQRS/Event Sourcing}
+                        \item {Coded in Ruby to maintain the monolith while the transition to Scala microservices is being completed}
+                        \item {Helped setup our CI/CD process and our deployment infrastructure with Docker/Kubernetes/AWS and Gitlab CI}
+                        \item {Supervised two interns throughout their end-of-studies internships and helped them they contribute highly within our technical team, be quickly productive and have a "domain driven" and "functional programming" mindset}
+                        \item {Animated daily/weekly sprint plannings and retrospectives}
+                        \item {Organised after-work activities within the company (watch movies at work every month, play football every month\ldots)}
+                        \item {\underline{Leveraged knowledge} in Scala, Ruby, Functional Programming, Domain-Driven Design, Hexagonal Architecture, PostgreSQL, CQRS/Event Sourcing, Kafka, AMQP, Git, CI/CD, AWS, GoogleCloud, Docker, Kubernetes, Terraform}
+                    \end{cvitems}
+                }
+
+            \cventry
+                {Java Software Developer}
+                {Vekia ~~ \includegraphics[scale=0.05]{images/logo_vekia}}
+                {Lille}
+                {March 2014 -- August 2016}
+                {
+                    \begin{cvitems}
+                        \item {Wrote specifications, developed and tested human-computer interface using the Test-Driven Development methodology}
+                        \item {Set up a new technical stack of upcoming projects}
+                        \item {Developed and maintained crosscutting tools (specification, development, tests, documentation)}
+                        \item {Trained users to new versions of the tools}
+                        \item {\underline{Leveraged knowledge} in Java, GWT, PostgreSQL, Spring/Spring Boot, SVN, Jenkins, Sonar}
+                    \end{cvitems}
+                }
+        \end{cventries}
+
+    \cvsection{Education ~ \faGraduationCap ~}
+
+        \bigskip
+
+        \cventry
+            {Software Engineering}
+            {Lille 1 University ~~ \includegraphics[scale=0.05]{images/logo_univ}}
+            {Lille}
+            {2016}
+            {
+                \begin{cvitems}
+                    \item {Obtained my Master Degree in 2016}
+                    \item {Obtained my Bachelor Degree in 2014}
+                \end{cvitems}
+            }
+
+    \cvsection{Skills ~ \faWrench ~}
+
+        \begin{cvskills}
+            \cvskill{Proficient}{Scala, Java, Git, PostgreSQL, CQRS/Event Sourcing, \LaTeX, Docker}
+            \cvskill{Familiar}{Haskell, Python, Ruby, Go, Node.js, Kafka, Kubernetes, Terraform}
+        \end{cvskills}
+
+    \cvsection{Languages ~ \faFlag ~}
+
+        \begin{cvskills}
+            \cvskill{\includegraphics[scale=0.007]{images/france-f}}{Fluent}
+            \cvskill{\includegraphics[scale=0.007]{images/uk-f}}{Fluent}
+            \cvskill{\includegraphics[scale=0.007]{images/spain-f}}{Average}
+        \end{cvskills}
+
+    \cvsection{Hobbies ~ \faSmileO ~}
+
+        \begin{cvskills}
+            \cvskill{Sport ~ \faFutbolO ~}{Football, basketball, tennis, running, cycling}
+            \cvskill{Cinema ~ \faFilm ~}{Movies and TV shows in original version}
+            \cvskill{Multimedia ~ \faPlayCircle ~}{Music (Rap, R\&B, Rock) and video games (Sport, Adventure, Action)}
+            \cvskill{Reading ~ \faBook ~}{Books about professional growth}
+            \cvskill{Traveling ~ \faPlane ~}{Visited Greece \includegraphics[scale=0.003]{images/greece-f}, Malta \includegraphics[scale=0.003]{images/malta-f}, Croatia \includegraphics[scale=0.003]{images/croatia-f.png}, Mexico \includegraphics[scale=0.003]{images/mexico-f}}
+        \end{cvskills}
+
+\end{document}
